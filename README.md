@@ -1,5 +1,5 @@
 # FastChat
-| [**Demo**](https://lmarena.ai/) | [**Discord**](https://discord.gg/6GXcFg3TH8) | [**X**](https://x.com/lmsysorg) |
+| [**Demo**](https://lmarena.ai/)  | [**X**](https://x.com/ShristiRajpoot) |
 
 FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
 - FastChat powers Chatbot Arena ([lmarena.ai](https://lmarena.ai)), serving over 10 million chat requests for 70+ LLMs.
@@ -50,7 +50,7 @@ pip3 install "fschat[model_worker,webui]"
 
 1. Clone this repository and navigate to the FastChat folder
 ```bash
-git clone https://github.com/lm-sys/FastChat.git
+git clone https://github.com/Shristirajpoot/Chatgpt-pro.git
 cd FastChat
 ```
 
@@ -66,8 +66,6 @@ pip3 install -e ".[model_worker,webui]"
 ```
 
 ## Model Weights
-### Vicuna Weights
-[Vicuna](https://lmsys.org/blog/2023-03-30-vicuna/) is based on Llama 2 and should be used under Llama's [model license](https://github.com/facebookresearch/llama/blob/main/LICENSE).
 
 You can use the commands below to start chatting. It will automatically download the weights from Hugging Face repos.
 Downloaded weights are stored in a `.cache` folder in the user's home folder (e.g., `~/.cache/huggingface/hub/<model_name>`).
